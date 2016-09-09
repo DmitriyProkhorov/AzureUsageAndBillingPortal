@@ -49,7 +49,7 @@ namespace WebJobUsageDaily
                 try
                 {
                     //DateTime sdt = DateTime.Now.AddYears(-3);
-                    DateTime sdt = DateTime.Now.AddDays(-2);
+                    DateTime sdt = DateTime.Now.AddDays(-1);
                     DateTime edt = DateTime.Now;
                     BillingRequest br = new BillingRequest(s.Id, s.OrganizationId, sdt, edt);
 
